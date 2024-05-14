@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkyozubook0_2"]=self["webpackChunkyozubook0_2"]||[]).push([[808],{6808:function(n,u,e){function o(n,u){return" 訂單 "}e.r(u),e.d(u,{default:function(){return f}});var r=e(1241);const t={},c=(0,r.A)(t,[["render",o]]);var f=c}}]);
+//# sourceMappingURL=808.753d89da.js.map
