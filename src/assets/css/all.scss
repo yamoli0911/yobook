@@ -1,0 +1,117 @@
+
+@import url("mixin/_color.scss");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&display=swap');
+
+
+
+@import url("view/_bookview.scss");
+
+
+
+
+
+
+
+@import url("components/_navbar.scss");
+@import url("components/_silde.scss");
+
+
+
+@font-face {
+  font-family: 'jf-openhuninn';
+  src: url('../jf-openhuninn-2.0.ttf');
+}
+
+body{
+  font-size: 1em;
+  font-family: "jf-openhuninn";
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none !important;
+  color: #000;
+  cursor: pointer;
+}
+select{
+  color:#000;
+}
+button{
+  border: none;
+  padding: 3px 0;
+  border-radius: 5px;
+
+}
+*{
+  box-sizing: border-box ;
+ 
+}
+.content{
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    padding: 10px;
+    position: relative;
+    
+  }
+
+.card-text{
+  font-size: 1em;
+}
+  
+  .router-link{
+    color: #000 ;
+    text-decoration: none;
+  }
+
+  .title-tage{
+    background: #884A39;
+     color:#fff;
+     margin: 20px;
+     font-size: 1.5em;
+     padding: 10px 10px;
+  }
+  .homebg{
+    background: #FAF9F9;
+  }
+
+  footer{
+    background: #884A39;
+
+    width: 100%;
+    height: 90px;
+ 
+    
+ }
+
+ .savenow{
+  color:#884A39 !important;
+ }
+
+ .save{
+  width: 20%;
+position: absolute;
+top:2%;
+right: 2%;
+padding: 5px ;
+font-size:1.1em;
+background: #FEECE2 !important;
+cursor: pointer;
+
+}
+.save i {
+color:#ccc;
+}
+
+.delBtn{
+  cursor: pointer;
+}
+.clear-cart{
+  padding: 10px ;
+  color: #884A39;
+  font-weight: 700;
+}
